@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Inicio - Tienda Artesanal</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Tienda Artesanal</h1>
+    <nav>
+      <a href="./index.html" class="activo">Inicioooo</a>
+      <a href="./html/productos.html">Productos</a>
+      <a href="./html/carrito.html">Carrito</a>
+      <a href="./html/acerca.html">Acerca de</a>
+      <a href="./html/contacto.html">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contenedor">
+      <h2>Bienvenido a nuestra tienda</h2>
+      <p>Explora una selección única de productos artesanales hechos a mano por comunidades locales.</p>
+      <img src="img/perfil.png" alt="Productos artesanales" class="imagen-inicio" />
+    </section>
+
+    <section class="contenedor">
+      <h2>¿Por qué elegirnos?</h2>
+      <ul>
+        <li>Apoyamos el comercio justo</li>
+        <li>Productos únicos y sostenibles</li>
+        <li>Envíos a toda Colombia</li>
+        <li>Pago seguro y fácil</li>
+      </ul>
+    </section>
+
+    <section class="contenedor">
+      <h2>Lo más vendido</h2>
+      <div class="productos-grid">
+        <div class="producto">
+          <img src="img/1.jpg" alt="Bolso artesanal">
+          <h3>Bolso Wayuu</h3>
+          <p><strong>$70.000 COP</strong></p>
+          <button onclick="agregarAlCarrito('Bolso Wayuu', 70000)">Agregar al carrito</button>
+        </div>
+
+        <div class="producto">
+          <img src="img/2.jpg" alt="Pulsera artesanal">
+          <h3>Pulsera chaquira</h3>
+          <p><strong>$25.000 COP</strong></p>
+          <button onclick="agregarAlCarrito('Pulsera chaquira', 25000)">Agregar al carrito</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Tienda Artesanal | Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>

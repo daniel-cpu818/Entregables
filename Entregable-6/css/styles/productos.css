@@ -1,0 +1,123 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fefefe;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #e74c3c;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover,
+nav a.activo {
+  color: #ffe4e1;
+  text-decoration: underline;
+}
+
+main {
+  padding: 40px 20px;
+}
+
+.contenedor {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+h2 {
+  color: #e74c3c;
+  margin-bottom: 25px;
+  font-size: 28px;
+}
+
+.productos-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.producto {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 280px;
+  padding: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.producto:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+.producto img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.producto h3 {
+  color: #e74c3c;
+  margin-bottom: 5px;
+}
+
+.producto p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.producto button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s ease;
+}
+
+.producto button:hover {
+  background-color: #c0392b;
+}
+
+footer {
+  background: #f4f4f4;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  color: #666;
+  font-size: 14px;
+}

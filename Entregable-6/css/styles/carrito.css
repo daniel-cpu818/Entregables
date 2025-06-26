@@ -1,0 +1,126 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fefefe;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #e74c3c;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover,
+nav a.activo {
+  color: #ffe4e1;
+  text-decoration: underline;
+}
+
+main {
+  padding: 40px 20px;
+}
+
+.contenedor {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+h2, h3 {
+  color: #e74c3c;
+  margin-bottom: 20px;
+}
+
+#carrito-lista ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+#carrito-lista li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#carrito-lista li span {
+  font-weight: bold;
+}
+
+#carrito-lista button {
+  background-color: #c0392b;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.3s ease;
+}
+
+#carrito-lista button:hover {
+  background-color: #a93226;
+}
+
+#carrito-total {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #c0392b;
+}
+
+footer {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  color: #666;
+  font-size: 14px;
+}

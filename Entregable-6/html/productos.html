@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Productos - Tienda Artesanal</title>
+  <link rel="stylesheet" href="/Entregables/Entregable-6/css/styles/productos.css" />
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Tienda Artesanal</h1>
+    <nav>
+      <a href="/Entregables/Entregable-6/index.html">Inicio</a>
+      <a href="productos.html" class="activo">Productos</a>
+      <a href="carrito.html">Carrito</a>
+      <a href="acerca.html">Acerca de</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contenedor">
+      <h2>Nuestros Productos</h2>
+      <div class="productos-grid">
+        <!-- Producto 1 -->
+        <div class="producto">
+          <img src="/Entregables/Entregable-6/img/1.jpg" alt="Bolso artesanal" />
+          <h3>Bolso Wayuu</h3>
+          <p>Bolso tejido a mano por artesanas de La Guajira.</p>
+          <p><strong>$70.000 COP</strong></p>
+          <button onclick="agregarAlCarrito('Bolso Wayuu', 70000)">Agregar al carrito</button>
+        </div>
+
+        <!-- Producto 2 -->
+        <div class="producto">
+          <img src="/Entregables/Entregable-6/img/2.jpg" alt="Pulsera artesanal" />
+          <h3>Pulsera de chaquira</h3>
+          <p>Hecha a mano con diseños indígenas.</p>
+          <p><strong>$25.000 COP</strong></p>
+          <button onclick="agregarAlCarrito('Pulsera chaquira', 25000)">Agregar al carrito</button>
+        </div>
+
+        <!-- Producto 3 -->
+        <div class="producto">
+          <img src="/Entregables/Entregable-6/img/3.jpg" alt="Manta artesanal" />
+          <h3>Manta tejida</h3>
+          <p>Manta artesanal hecha en telar tradicional.</p>
+          <p><strong>$90.000 COP</strong></p>
+          <button onclick="agregarAlCarrito('Manta tejida', 90000)">Agregar al carrito</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Tienda Artesanal | Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>
